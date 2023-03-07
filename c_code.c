@@ -1,5 +1,15 @@
 #include<stdio.h>
 
+void LOOP(void);
+
 int main(){
-    printf("Hello world");
+    LOOP();
+}
+
+void LOOP(){
+    int i = 0;
+    for(i = 0; i < 10; i++){
+        printf("%d ", i+1);
+    }
+    printf("\n");
 }
