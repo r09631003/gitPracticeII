@@ -8,7 +8,7 @@ int main(){
 
 void LOOP(){
     int i = 0;
-    for(i = 0; i < 10; i++){
+    for(i = 0; i < 11; i++){
         printf("%d ", i+1);
     }
     printf("\n");
